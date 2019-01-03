@@ -1,0 +1,13 @@
+[package]
+name = "tschunk"
+version = "0.1.0"
+authors = ["Andrea Lattuada <andrea@lattuada.me>"]
+edition = "2018"
+
+[dependencies]
+proc-macro2 = "^0.4"
+syn = { version = "^0.15", features = ["full"] }
+quote = "^0.6"
+
+[lib]
+proc-macro = true
